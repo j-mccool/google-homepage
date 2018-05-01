@@ -1,4 +1,4 @@
-img.displayed {
+.displayed {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -7,7 +7,7 @@ img.displayed {
 	margin: auto;
 }
 
-div.submit1 {
+.submit1 {
 	float: left;
 	margin: 0;
 }
@@ -15,6 +15,11 @@ div.submit1 {
 header {
 	text-align: center;
 }
-
-h1 {
+.main {
+	margin: auto;
+	padding-top: 200px;
+}
+.buttons {
+	position: relative;
+	margin:auto;
 }
