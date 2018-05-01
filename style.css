@@ -1,25 +1,39 @@
-.displayed {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
+body {
+	background-color: : #ecf0f1;
 }
 
-.submit1 {
-	float: left;
-	margin: 0;
+.navbar-default {
+	max-height: 40px;
 }
 
-header {
+.image_block {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+	margin-bottom:20px;
+}
+
+.col-6 {
+	float: none !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-group-wrap {
 	text-align: center;
+	margin-top: 30px;
 }
-.main {
-	margin: auto;
-	padding-top: 200px;
+
+div.btn-group {
+	margin: 0 auto;
+	text-align: center;
+	width: inherit;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
 }
-.buttons {
-	position: relative;
-	margin:auto;
+
+.navbar-right: {
+	float: right;
 }
