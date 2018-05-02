@@ -1,9 +1,23 @@
-body {
-	background-color: : #ecf0f1;
+.footer_bar {
+    background: #e8e8e8;
+    font-size: 13px;
 }
 
-.navbar-default {
-	max-height: 40px;
+.body{
+    font-family: arial, Arial, Helvetica, sans-serif;
+}
+
+.header_bar {
+    font-size: 13px;
+}
+.nav-link {
+    color: #515151;
+}
+
+.btn {
+    color: #727272;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .image_block {
@@ -32,8 +46,4 @@ div.btn-group {
 	display: inline-block;
 	padding-right: 5px;
 	padding-left: 5px;
-}
-
-.navbar-right: {
-	float: right;
 }
